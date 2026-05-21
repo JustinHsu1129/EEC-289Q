@@ -2,15 +2,15 @@
 
 module lenet_accelerator #(
     parameter DATA_WIDTH = 8,
-    parameter ACCUM_WIDTH = 32,
-    parameter IMAGE_W = 28,
-    parameter IMAGE_H = 28,
-    parameter KERNEL_SIZE = 3,
-    parameter ARRAY_ROWS = 16,
-    parameter ARRAY_COLS = 16,
-    parameter ACT_ADDR_W = 10,  
-    parameter WT_ADDR_W = 4,    
-    parameter PSUM_ADDR_W = 10  
+    parameter ACCUM_WIDTH = 32, // partial sum width in PEs
+    parameter IMAGE_W = 28, // input width
+    parameter IMAGE_H = 28, // input height
+    parameter KERNEL_SIZE = 3, // filter size (AxA)
+    parameter ARRAY_ROWS = 16, // physical amt of PE rows
+    parameter ARRAY_COLS = 16, // physical amt of PE cols
+    parameter ACT_ADDR_W = 10, // IA mem width: roundup[log2(IMAGE_W * IMAGE_H)]
+    parameter WT_ADDR_W = 4, // weight mem width: roundup[log2(KERNEL_SIZE^2)]   
+    parameter PSUM_ADDR_W = 10 // partial sum mem address width 
 )(
     input logic clk,
     input logic rst_n,
