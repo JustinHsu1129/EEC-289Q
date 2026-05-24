@@ -6,7 +6,7 @@ module Systolic_Top #(
     parameter WeightBitWidth = 8,
     parameter InputFeatureMapBitWidth = 16,
     parameter OutputFeatureMapBitWidth = 32,
-    parameter WeightAddressBit = 11,
+    parameter WeightAddressBit = 12,
     parameter InputFeatureMapAddressBit = 9,
     parameter OutputFeatureMapAddressBit = 10,
     parameter OutputFeatureMapChannelCount = 64,
