@@ -14,8 +14,8 @@ module model_top_tb;
     // --- USER SETTINGS: MULTI-RUN MNIST TEST CONFIGURATION ---
     // FIRST_IMAGE_INDEX: starting index in t10k-* files (0 = first test image, label 7)
     // NUM_RUNS: how many consecutive images to run (indices FIRST .. FIRST+NUM_RUNS-1)
-    localparam int FIRST_IMAGE_INDEX = 0;
-    localparam int NUM_RUNS          = 1;
+    localparam int FIRST_IMAGE_INDEX = 100;
+    localparam int NUM_RUNS          = 20;
 
     task automatic clear_accelerator_memories();
         for (int addr = 0; addr < 1024; addr++) begin
