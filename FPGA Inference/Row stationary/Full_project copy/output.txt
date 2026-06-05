@@ -1,0 +1,17 @@
+====================================================
+STARTING LENET-5 SYSTOLIC ACCELERATOR TESTBENCH
+Running 20 images (indices 100 .. 119)
+====================================================
+[TB INFO] Loading network weights and biases...
+[TB INFO] Conv1 weights packed into systolic weight memory.
+[TB INFO] Conv2 weights packed into systolic weight memory.
+[TB INFO] Weight loading complete.
+
+----------------------------------------------------
+RUN 1 / 20  |  MNIST test index 100
+----------------------------------------------------
+[TB INFO] Successfully extracted and padded MNIST Image Index 100.
+[TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+[TB INFO] Successfully extracted ground truth label: 6
+[TB INFO] Asserting start for expected label 6...
+[TB INFO] Pipeline active. Awaiting done...

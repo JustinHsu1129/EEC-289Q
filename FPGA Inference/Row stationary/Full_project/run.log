@@ -1,0 +1,40 @@
+VCD info: dumpfile lenet_sim.vcd opened for output.
+====================================================
+STARTING LENET-5 SYSTOLIC ACCELERATOR TESTBENCH
+Running 20 images (indices 100 .. 119)
+====================================================
+[TB INFO] Loading network weights and biases...
+[TB INFO] Conv1 weights packed into systolic weight memory.
+[TB INFO] Conv2 weights packed into systolic weight memory.
+[TB INFO] Weight loading complete.
+
+----------------------------------------------------
+RUN 1 / 20  |  MNIST test index 100
+----------------------------------------------------
+[TB INFO] Successfully extracted and padded MNIST Image Index 100.
+[TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+[TB INFO] Successfully extracted ground truth label: 6
+[TB INFO] Asserting start for expected label 6...
+[TB INFO] Pipeline active. Awaiting done...
+  Hardware predicted output: 6
+RUN 1 PASS | index 100 | expected 6 | LED 0001000000
+
+----------------------------------------------------
+RUN 2 / 20  |  MNIST test index 101
+----------------------------------------------------
+[TB INFO] Successfully extracted and padded MNIST Image Index 101.
+[TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+[TB INFO] Successfully extracted ground truth label: 0
+[TB INFO] Asserting start for expected label 0...
+[TB INFO] Pipeline active. Awaiting done...
+  Hardware predicted output: 0
+RUN 2 PASS | index 101 | expected 0 | LED 0000000001
+
+----------------------------------------------------
+RUN 3 / 20  |  MNIST test index 102
+----------------------------------------------------
+[TB INFO] Successfully extracted and padded MNIST Image Index 102.
+[TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+[TB INFO] Successfully extracted ground truth label: 5
+[TB INFO] Asserting start for expected label 5...
+[TB INFO] Pipeline active. Awaiting done...
