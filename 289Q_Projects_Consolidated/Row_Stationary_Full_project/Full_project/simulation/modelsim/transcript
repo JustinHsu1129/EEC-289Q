@@ -1,0 +1,51 @@
+# vsim -c -t 1ps -L rtl_work -L work -voptargs="+acc" work.tb_lenet_top "+no_vcd" "+first=100" "+runs=5" -do "run -all; quit -f" 
+# Start time: 20:06:59 on Jun 07,2026
+# Loading sv_std.std
+# Loading work.tb_lenet_top
+# Loading work.model_top
+# Loading work.Systolic_Top
+# Loading work.PE_Array
+# Loading work.Mem_ctrl
+# Loading work.ifmap_mem
+# Loading work.weight_mem
+# Loading work.ofmap_mem
+# Loading work.pooling_top
+# Loading work.pooling_layer
+# Loading work.dual_port_bram
+# Loading work.fc_top
+# Loading work.fcl_weight_rom
+# Loading work.fcl_bias_rom
+# Loading work.fc_layer
+# Loading work.fc_serializer
+# Loading work.PE
+# run -all
+# [TB INFO] Overriding first image index: 100
+# [TB INFO] Overriding run count: 5
+# ====================================================
+# STARTING LENET-5 SYSTOLIC ACCELERATOR TESTBENCH
+# Running 5 images (indices 100 .. 104)
+# ====================================================
+# [TB INFO] Loading network weights and biases...
+# [TB INFO] Conv1 weights packed into systolic weight memory.
+# [TB INFO] Conv2 weights packed into systolic weight memory.
+# [TB INFO] Weight loading complete.
+# 
+# ----------------------------------------------------
+# RUN 1 / 5  |  MNIST test index 100
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 100.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 6
+# [TB INFO] Asserting start for expected label 6...
+# [TB INFO] Pipeline active. Awaiting done...
+#   Hardware predicted output: 8
+# RUN 1 FAIL | index 100 | expected 6 (one-hot 0001000000) | LED 0100000000
+# 
+# ----------------------------------------------------
+# RUN 2 / 5  |  MNIST test index 101
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 101.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 0
+# [TB INFO] Asserting start for expected label 0...
+# [TB INFO] Pipeline active. Awaiting done...

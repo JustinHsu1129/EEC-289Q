@@ -1,0 +1,32 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Mem_ctrl.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_bias_rom.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/weight_mem.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Systolic_Top.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling_top.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE_Array.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ofmap_mem.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/memory_control.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ifmap_mem.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_weight_rom.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_top.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_serial.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_layer.sv}
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/model_top.sv}
+
+vlog -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project {C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/tb_systolic_top.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_lenet_top
+
+add wave *
+view structure
+view signals
+run -all

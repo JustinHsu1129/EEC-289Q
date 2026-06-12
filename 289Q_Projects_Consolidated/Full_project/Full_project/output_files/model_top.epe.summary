@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Failed - Sat Jun 06 01:17:32 2026
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+Revision Name : model_top
+Top-level Entity Name : model_top
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

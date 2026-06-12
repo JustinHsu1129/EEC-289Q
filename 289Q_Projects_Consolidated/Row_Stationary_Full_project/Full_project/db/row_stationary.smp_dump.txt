@@ -1,0 +1,75 @@
+
+State Machine - |model_top|fc_top:fc_pipeline|fc_layer:fc1|state
+Name state.DONE state.BIAS_ADD state.FETCH_AND_MAC state.IDLE 
+state.IDLE 0 0 0 0 
+state.FETCH_AND_MAC 0 0 1 1 
+state.BIAS_ADD 0 1 0 1 
+state.DONE 1 0 0 1 
+
+State Machine - |model_top|fc_top:fc_pipeline|fc_layer:fc2|state
+Name state.DONE state.BIAS_ADD state.FETCH_AND_MAC state.IDLE 
+state.IDLE 0 0 0 0 
+state.FETCH_AND_MAC 0 0 1 1 
+state.BIAS_ADD 0 1 0 1 
+state.DONE 1 0 0 1 
+
+State Machine - |model_top|state
+Name state.ST_DONE state.ST_FC_STREAM state.ST_POOL2 state.ST_CONV2 state.ST_POOL1 state.ST_CONV1 state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 0 
+state.ST_CONV1 0 0 0 0 0 1 1 
+state.ST_POOL1 0 0 0 0 1 0 1 
+state.ST_CONV2 0 0 0 1 0 0 1 
+state.ST_POOL2 0 0 1 0 0 0 1 
+state.ST_FC_STREAM 0 1 0 0 0 0 1 
+state.ST_DONE 1 0 0 0 0 0 1 
+
+State Machine - |model_top|pooling_top:pool2_inst|state
+Name state.S_SEND_TILE state.S_WAIT_DATA state.S_READ_TILE state.S_IDLE state.S_WAIT_OUTPUT 
+state.S_IDLE 0 0 0 0 0 
+state.S_READ_TILE 0 0 1 1 0 
+state.S_WAIT_DATA 0 1 0 1 0 
+state.S_SEND_TILE 1 0 0 1 0 
+state.S_WAIT_OUTPUT 0 0 0 1 1 
+
+State Machine - |model_top|Systolic_Top:conv2_inst|Mem_ctrl:Mem_ctrl_instance|TilePhase
+Name TilePhase.TILE_FETCH TilePhase.TILE_COMPUTE TilePhase.TILE_LATCH 
+TilePhase.TILE_FETCH 0 0 0 
+TilePhase.TILE_LATCH 1 0 1 
+TilePhase.TILE_COMPUTE 1 1 0 
+
+State Machine - |model_top|Systolic_Top:conv2_inst|Mem_ctrl:Mem_ctrl_instance|State
+Name State.STREAM_WEIGHT State.LOAD_WEIGHT State.LOAD_IFMAP State.IDLE State.DRAIN 
+State.IDLE 0 0 0 0 0 
+State.LOAD_IFMAP 0 0 1 1 0 
+State.LOAD_WEIGHT 0 1 0 1 0 
+State.STREAM_WEIGHT 1 0 0 1 0 
+State.DRAIN 0 0 0 1 1 
+
+State Machine - |model_top|pooling_top:pool1_inst|state
+Name state.S_SEND_TILE state.S_WAIT_DATA state.S_READ_TILE state.S_IDLE state.S_WAIT_OUTPUT 
+state.S_IDLE 0 0 0 0 0 
+state.S_READ_TILE 0 0 1 1 0 
+state.S_WAIT_DATA 0 1 0 1 0 
+state.S_SEND_TILE 1 0 0 1 0 
+state.S_WAIT_OUTPUT 0 0 0 1 1 
+
+State Machine - |model_top|Systolic_Top:conv1_inst|Mem_ctrl:Mem_ctrl_instance|State
+Name State.STREAM_WEIGHT State.LOAD_WEIGHT State.LOAD_IFMAP State.IDLE State.DRAIN 
+State.IDLE 0 0 0 0 0 
+State.LOAD_IFMAP 0 0 1 1 0 
+State.LOAD_WEIGHT 0 1 0 1 0 
+State.STREAM_WEIGHT 1 0 0 1 0 
+State.DRAIN 0 0 0 1 1 
+
+State Machine - |model_top|Systolic_Top:conv1_inst|Mem_ctrl:Mem_ctrl_instance|TilePhase
+Name TilePhase.TILE_FETCH TilePhase.TILE_COMPUTE TilePhase.TILE_LATCH 
+TilePhase.TILE_FETCH 0 0 0 
+TilePhase.TILE_LATCH 1 0 1 
+TilePhase.TILE_COMPUTE 1 1 0 
+
+State Machine - |model_top|fc_top:fc_pipeline|fc_layer:fc3|state
+Name state.DONE state.BIAS_ADD state.FETCH_AND_MAC state.IDLE 
+state.IDLE 0 0 0 0 
+state.FETCH_AND_MAC 0 0 1 1 
+state.BIAS_ADD 0 1 0 1 
+state.DONE 1 0 0 1 

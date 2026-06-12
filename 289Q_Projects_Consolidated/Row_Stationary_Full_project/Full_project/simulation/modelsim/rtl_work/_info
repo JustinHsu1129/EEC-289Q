@@ -1,0 +1,509 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/simulation/modelsim
+vactivation_line_buffer
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1781018240
+!i10b 1
+!s100 `f^dIg>T4^N8mG0@i8@CK2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3L3fCAITNP`NOS44c82123
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1780888216
+Z6 8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/memory_control.sv
+Z7 FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/memory_control.sv
+!i122 9
+L0 102 54
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1781018240.000000
+Z10 !s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/memory_control.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/memory_control.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project
+Z14 tCvgOpt 0
+vdual_port_bram
+R1
+R2
+!i10b 1
+!s100 [L7BWo1IIIWQBk5izIlog0
+R3
+ID3U[J1jQEB7b_gBa>Y0io1
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 9
+L0 3 37
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vfc_layer
+R1
+R2
+!i10b 1
+!s100 9G?BKH2^=Fi09?PIRCYa^3
+R3
+IAfRhJJiznN:L=`<;SAzY10
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_layer.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_layer.sv
+!i122 14
+L0 7 132
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_layer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_layer.sv|
+!i113 1
+R12
+R13
+R14
+vfc_serializer
+R1
+R2
+!i10b 1
+!s100 V]zblzJWZo0_4OMRC50Q?2
+R3
+IdWmiZ5fzc4:VQjA?i]6f12
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_serial.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_serial.sv
+!i122 13
+L0 3 45
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_serial.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_serial.sv|
+!i113 1
+R12
+R13
+R14
+vfc_top
+R1
+R2
+!i10b 1
+!s100 <]10D@On9;[IUR?DVb6o92
+R3
+IzeC1m6?BR^HQKzWS_fzzL1
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_top.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_top.sv
+!i122 12
+L0 1 263
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fc_top.sv|
+!i113 1
+R12
+R13
+R14
+vfcl_bias_rom
+R1
+Z15 !s110 1781018239
+!i10b 1
+!s100 =[iY[NOb2Hh^_LbT[D<7l2
+R3
+I[B`3_jTVaIiiR86ZTVYL83
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_bias_rom.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_bias_rom.sv
+!i122 1
+L0 1 46
+R8
+r1
+!s85 0
+31
+Z16 !s108 1781018239.000000
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_bias_rom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_bias_rom.sv|
+!i113 1
+R12
+R13
+R14
+vfcl_weight_rom
+R1
+R2
+!i10b 1
+!s100 oOm34L_=4Mf_T2D2S7ihA3
+R3
+IBegNZg1BcifgooVe04`Om1
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_weight_rom.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_weight_rom.sv
+!i122 11
+L0 1 44
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_weight_rom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/fcl_weight_rom.sv|
+!i113 1
+R12
+R13
+R14
+vifmap_mem
+R1
+R2
+!i10b 1
+!s100 SH;3^8ZGh>ll0a_z8R4<[2
+R3
+IUQ>f_^RD<m^:lb<2f[1;W1
+R4
+S1
+R0
+w1781014201
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ifmap_mem.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ifmap_mem.sv
+!i122 10
+L0 3 99
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ifmap_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ifmap_mem.sv|
+!i113 1
+R12
+R13
+R14
+vMem_ctrl
+R1
+R15
+!i10b 1
+!s100 ?L3fObSjn6kT^FGo5SX190
+R3
+IK8QJ>gF=WNMGf29Z1H2>a0
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Mem_ctrl.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Mem_ctrl.sv
+!i122 0
+L0 6 173
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Mem_ctrl.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Mem_ctrl.sv|
+!i113 1
+R12
+R13
+R14
+n@mem_ctrl
+vmodel_top
+R1
+Z17 !s110 1781018241
+!i10b 1
+!s100 @NmXAUcGACHKBf>@:jVHB2
+R3
+I>oI`^Od53Tgbzg9hh8:UJ2
+R4
+S1
+R0
+Z18 w1781012613
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/model_top.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/model_top.sv
+!i122 15
+L0 3 360
+R8
+r1
+!s85 0
+31
+Z19 !s108 1781018241.000000
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/model_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/model_top.sv|
+!i113 1
+R12
+R13
+R14
+vofmap_mem
+R1
+R2
+!i10b 1
+!s100 9@fDKz?`0o25]nk]RV@c53
+R3
+IaH8T07XXK^4;>Uzh7hcPa2
+R4
+S1
+R0
+w1780939117
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ofmap_mem.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ofmap_mem.sv
+!i122 8
+L0 3 100
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ofmap_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/ofmap_mem.sv|
+!i113 1
+R12
+R13
+R14
+vPE
+R1
+R2
+!i10b 1
+!s100 NS96YN1LR]PciK7YW_GI@1
+R3
+ImLUJee7B489=<njW>MKRR3
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE.sv
+!i122 7
+L0 5 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE.sv|
+!i113 1
+R12
+R13
+R14
+n@p@e
+vPE_Array
+R1
+R2
+!i10b 1
+!s100 XGNam1@<Qnd7HYNDg3We40
+R3
+Ij7]@JXkez54_d6SJ>jE]O3
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE_Array.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE_Array.sv
+!i122 6
+L0 4 66
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE_Array.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/PE_Array.sv|
+!i113 1
+R12
+R13
+R14
+n@p@e_@array
+vpooling_layer
+R1
+R2
+!i10b 1
+!s100 SFY`^T0@@ged>1<eNNjf92
+R3
+IWT:hMB?aAb6<azc7o=mE51
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling.sv
+!i122 5
+L0 1 56
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling.sv|
+!i113 1
+R12
+R13
+R14
+vpooling_top
+R1
+R15
+!i10b 1
+!s100 kF_aiJZlj`Pb_5P<SIFmj1
+R3
+IL8C28<N63zU7lGkAG`5Ii3
+R4
+S1
+R0
+R18
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling_top.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling_top.sv
+!i122 4
+L0 3 176
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/pooling_top.sv|
+!i113 1
+R12
+R13
+R14
+vSystolic_Top
+R1
+R15
+!i10b 1
+!s100 QFU4aiYQK_>h4nDnZ396e1
+R3
+I9D5ozHU=Jbe4M7G=JiEff0
+R4
+S1
+R0
+w1781015197
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Systolic_Top.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Systolic_Top.sv
+!i122 3
+L0 5 264
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Systolic_Top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/Systolic_Top.sv|
+!i113 1
+R12
+R13
+R14
+n@systolic_@top
+vtb_lenet_top
+R1
+R17
+!i10b 1
+!s100 CgSWKIcnDGE6W`z:60_WS1
+R3
+IG4dK7el[D]6L3h?gL?c5N3
+R4
+S1
+R0
+w1780952373
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/tb_lenet_top.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/tb_lenet_top.sv
+!i122 16
+L0 7 935
+R8
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/tb_lenet_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/tb_lenet_top.sv|
+!i113 1
+R12
+R13
+R14
+vweight_addr_gen
+R1
+R2
+!i10b 1
+!s100 P>U9g[lEV[U3WGWhDbn>e0
+R3
+Ijnd`iTIRL>_LDiNeFJ?O@1
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 9
+L0 41 60
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vweight_mem
+R1
+R15
+!i10b 1
+!s100 Z404:LJY9jTRV0z`a0YEn1
+R3
+I<7l:Gm4A;Rg@2GZ@=hDEg3
+R4
+S1
+R0
+w1780903616
+8C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/weight_mem.sv
+FC:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/weight_mem.sv
+!i122 2
+L0 3 76
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/weight_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project|C:/Users/dnare/Downloads/Row_Stationary_Full_project/Full_project/weight_mem.sv|
+!i113 1
+R12
+R13
+R14

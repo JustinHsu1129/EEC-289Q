@@ -1,0 +1,308 @@
+# Reading pref.tcl
+# do model_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/weight_mem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:59 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/weight_mem.sv 
+# -- Compiling module weight_mem
+# 
+# Top level modules:
+# 	weight_mem
+# End time: 14:55:59 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Systolic_Top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:59 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Systolic_Top.sv 
+# -- Compiling module Systolic_Top
+# 
+# Top level modules:
+# 	Systolic_Top
+# End time: 14:55:59 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:59 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv 
+# -- Compiling module pooling_top
+# 
+# Top level modules:
+# 	pooling_top
+# End time: 14:55:59 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:59 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling.sv 
+# -- Compiling module pooling_layer
+# 
+# Top level modules:
+# 	pooling_layer
+# End time: 14:55:59 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:55:59 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv 
+# -- Compiling module PE_Array
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(17): (vlog-13314) Defaulting port 'InputFeatureMapDataIn' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(18): (vlog-13314) Defaulting port 'WeightDataIn' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(41): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(42): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(42): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(43): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# ** Warning: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv(45): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+# 
+# Top level modules:
+# 	PE_Array
+# End time: 14:55:59 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE.sv 
+# -- Compiling module PE
+# 
+# Top level modules:
+# 	PE
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ofmap_mem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ofmap_mem.sv 
+# -- Compiling module ofmap_mem
+# 
+# Top level modules:
+# 	ofmap_mem
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/memory_control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/memory_control.sv 
+# -- Compiling module dual_port_bram
+# -- Compiling module weight_addr_gen
+# -- Compiling module activation_line_buffer
+# 
+# Top level modules:
+# 	dual_port_bram
+# 	weight_addr_gen
+# 	activation_line_buffer
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Mem_ctrl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Mem_ctrl.sv 
+# -- Compiling module Mem_ctrl
+# 
+# Top level modules:
+# 	Mem_ctrl
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ifmap_mem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ifmap_mem.sv 
+# -- Compiling module ifmap_mem
+# 
+# Top level modules:
+# 	ifmap_mem
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_weight_rom.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_weight_rom.sv 
+# -- Compiling module fcl_weight_rom
+# 
+# Top level modules:
+# 	fcl_weight_rom
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_bias_rom.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_bias_rom.sv 
+# -- Compiling module fcl_bias_rom
+# 
+# Top level modules:
+# 	fcl_bias_rom
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_top.sv 
+# -- Compiling module fc_top
+# 
+# Top level modules:
+# 	fc_top
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_serial.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_serial.sv 
+# -- Compiling module fc_serializer
+# 
+# Top level modules:
+# 	fc_serializer
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_layer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_layer.sv 
+# -- Compiling module fc_layer
+# 
+# Top level modules:
+# 	fc_layer
+# End time: 14:56:00 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:00 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv 
+# -- Compiling module model_top
+# 
+# Top level modules:
+# 	model_top
+# End time: 14:56:01 on Jun 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project {C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:56:01 on Jun 11,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project" C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv 
+# -- Compiling module model_top_tb
+# 
+# Top level modules:
+# 	model_top_tb
+# End time: 14:56:01 on Jun 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  model_top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" model_top_tb 
+# Start time: 14:56:01 on Jun 11,2026
+# Loading sv_std.std
+# Loading work.model_top_tb
+# Loading work.model_top
+# Loading work.Systolic_Top
+# Loading work.PE_Array
+# Loading work.Mem_ctrl
+# Loading work.ifmap_mem
+# Loading work.weight_mem
+# Loading work.ofmap_mem
+# Loading work.pooling_top
+# Loading work.pooling_layer
+# Loading work.dual_port_bram
+# Loading work.fc_top
+# Loading work.fcl_weight_rom
+# Loading work.fcl_bias_rom
+# Loading work.fc_layer
+# Loading work.fc_serializer
+# Loading work.PE
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /model_top_tb/uut File: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv Line: 66
+# ** Warning: (vsim-3722) C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv(66): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (8) for port 'wr_data'. The port definition is at: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /model_top_tb/uut/pool1_inst File: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv Line: 205
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (7) for port 'rd_addr'. The port definition is at: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /model_top_tb/uut/pool2_inst File: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv Line: 284
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'wr_addr'. The port definition is at: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /model_top_tb/uut/pool2_inst File: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv Line: 284
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (8) for port 'wr_data'. The port definition is at: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /model_top_tb/uut/pool2_inst File: C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv Line: 284
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ====================================================
+# STARTING LENET-5 SYSTOLIC ACCELERATOR TESTBENCH
+# Running 5 images (indices 100 .. 104)
+# ====================================================
+# [TB INFO] Loading network weights and biases...
+# [TB INFO] Conv1 weights packed into systolic weight memory.
+# [TB INFO] Conv2 weights packed into systolic weight memory.
+# [TB INFO] Weight loading complete.
+# 
+# ----------------------------------------------------
+# RUN 1 / 5  |  MNIST test index 100
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 100.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 6
+# [TB INFO] Asserting start for expected label 6...
+# [TB INFO] Pipeline active. Awaiting done...
+#   Hardware predicted output: 6
+# RUN 1 PASS | index 100 | expected 6 | LED 0001000000
+# 
+# ----------------------------------------------------
+# RUN 2 / 5  |  MNIST test index 101
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 101.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 0
+# [TB INFO] Asserting start for expected label 0...
+# [TB INFO] Pipeline active. Awaiting done...
+#   Hardware predicted output: 0
+# RUN 2 PASS | index 101 | expected 0 | LED 0000000001
+# 
+# ----------------------------------------------------
+# RUN 3 / 5  |  MNIST test index 102
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 102.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 5
+# [TB INFO] Asserting start for expected label 5...
+# [TB INFO] Pipeline active. Awaiting done...
+#   Hardware predicted output: 5
+# RUN 3 PASS | index 102 | expected 5 | LED 0000100000
+# 
+# ----------------------------------------------------
+# RUN 4 / 5  |  MNIST test index 103
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 103.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 4
+# [TB INFO] Asserting start for expected label 4...
+# [TB INFO] Pipeline active. Awaiting done...
+#   Hardware predicted output: 4
+# RUN 4 PASS | index 103 | expected 4 | LED 0000010000
+# 
+# ----------------------------------------------------
+# RUN 5 / 5  |  MNIST test index 104
+# ----------------------------------------------------
+# [TB INFO] Successfully extracted and padded MNIST Image Index 104.
+# [TB INFO] Backdoor load to conv1 input feature memory (i_mem) complete.
+# [TB INFO] Successfully extracted ground truth label: 9
+# [TB INFO] Asserting start for expected label 9...
+# [TB INFO] Pipeline active. Awaiting done...
+#   Hardware predicted output: 9
+# RUN 5 PASS | index 104 | expected 9 | LED 1000000000
+# 
+# ====================================================
+# BATCH SIMULATION COMPLETE
+# Passed: 5 / 5
+# Failed: 0 / 5
+# OVERALL: ALL RUNS PASSED
+# ====================================================
+# ** Note: $finish    : C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv(234)
+#    Time: 8845365 ns  Iteration: 1  Instance: /model_top_tb
+# End time: 14:58:00 on Jun 11,2026, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 6

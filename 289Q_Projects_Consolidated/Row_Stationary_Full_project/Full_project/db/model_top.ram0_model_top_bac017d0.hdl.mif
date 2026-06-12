@@ -1,0 +1,17 @@
+-- begin_signature
+-- model_top
+-- end_signature
+WIDTH=8;
+DEPTH=6;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	5 :	00000000;
+	4 :	00000101;
+	3 :	00000111;
+	2 :	11111101;
+	1 :	11111110;
+	0 :	11111110;
+END;

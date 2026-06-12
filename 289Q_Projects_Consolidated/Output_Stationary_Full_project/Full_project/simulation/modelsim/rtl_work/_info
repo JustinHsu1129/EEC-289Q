@@ -1,0 +1,509 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/simulation/modelsim
+vactivation_line_buffer
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1781214960
+!i10b 1
+!s100 `f^dIg>T4^N8mG0@i8@CK2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IgJY33]Im`NTeY21O>b@<32
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1780804039
+Z6 8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/memory_control.sv
+Z7 FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/memory_control.sv
+!i122 7
+L0 102 54
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1781214960.000000
+Z10 !s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/memory_control.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/memory_control.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project
+Z14 tCvgOpt 0
+vdual_port_bram
+R1
+R2
+!i10b 1
+!s100 [L7BWo1IIIWQBk5izIlog0
+R3
+IT7>818Oz0P`M58jj@S?o00
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 7
+L0 3 37
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vfc_layer
+R1
+R2
+!i10b 1
+!s100 9G?BKH2^=Fi09?PIRCYa^3
+R3
+IG<P[IgZ``okAbC6TNBooY1
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_layer.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_layer.sv
+!i122 14
+L0 7 132
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_layer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_layer.sv|
+!i113 1
+R12
+R13
+R14
+vfc_serializer
+R1
+R2
+!i10b 1
+!s100 V]zblzJWZo0_4OMRC50Q?2
+R3
+IO<m<oL4[gdS_;Fo[KJQ^92
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_serial.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_serial.sv
+!i122 13
+L0 3 45
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_serial.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_serial.sv|
+!i113 1
+R12
+R13
+R14
+vfc_top
+R1
+R2
+!i10b 1
+!s100 <]10D@On9;[IUR?DVb6o92
+R3
+IJVAc;IG1z7cDUof>F@cVJ1
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_top.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_top.sv
+!i122 12
+L0 1 263
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fc_top.sv|
+!i113 1
+R12
+R13
+R14
+vfcl_bias_rom
+R1
+R2
+!i10b 1
+!s100 =[iY[NOb2Hh^_LbT[D<7l2
+R3
+I[bE0Yla1VIcfXV>VZEMGP1
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_bias_rom.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_bias_rom.sv
+!i122 11
+L0 1 46
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_bias_rom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_bias_rom.sv|
+!i113 1
+R12
+R13
+R14
+vfcl_weight_rom
+R1
+R2
+!i10b 1
+!s100 oOm34L_=4Mf_T2D2S7ihA3
+R3
+I]0WikDQE_kAbGVI5akGzT1
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_weight_rom.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_weight_rom.sv
+!i122 10
+L0 1 44
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_weight_rom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/fcl_weight_rom.sv|
+!i113 1
+R12
+R13
+R14
+vifmap_mem
+R1
+R2
+!i10b 1
+!s100 b;UYoBb7NJlbjaMh`4UR>1
+R3
+I@8^Aa<4edXf3Lm@X8WbBR0
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ifmap_mem.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ifmap_mem.sv
+!i122 9
+L0 3 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ifmap_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ifmap_mem.sv|
+!i113 1
+R12
+R13
+R14
+vMem_ctrl
+R1
+R2
+!i10b 1
+!s100 _^@KJWL0WEn[UdAaQ3Ta=1
+R3
+Ic3]EV4i9ff3zLJJSDU[SJ0
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Mem_ctrl.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Mem_ctrl.sv
+!i122 8
+L0 5 164
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Mem_ctrl.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Mem_ctrl.sv|
+!i113 1
+R12
+R13
+R14
+n@mem_ctrl
+vmodel_top
+R1
+Z15 !s110 1781214961
+!i10b 1
+!s100 Da]2b_geeJNkhSAEU5j290
+R3
+ILA4M?:oBR^A0@_heK2Lgl2
+R4
+S1
+R0
+w1781213443
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv
+!i122 15
+L0 3 377
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/model_top.sv|
+!i113 1
+R12
+R13
+R14
+vmodel_top_tb
+R1
+R15
+!i10b 1
+!s100 o8[K1lIkRHTTnSzizCjDP0
+R3
+Ik62dRzR08NWnblgYfJ[M50
+R4
+S1
+R0
+w1780808465
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv
+!i122 16
+L0 5 490
+R8
+r1
+!s85 0
+31
+!s108 1781214961.000000
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/tb_lenet_top.sv|
+!i113 1
+R12
+R13
+R14
+vofmap_mem
+R1
+R2
+!i10b 1
+!s100 id;lDIE_ZNJ^AYSWS:ZQ51
+R3
+IzCd=85^aGNL];^R;8:4co0
+R4
+S1
+R0
+w1780811285
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ofmap_mem.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ofmap_mem.sv
+!i122 6
+L0 3 38
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ofmap_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/ofmap_mem.sv|
+!i113 1
+R12
+R13
+R14
+vPE
+R1
+R2
+!i10b 1
+!s100 ZdePX0XcRK6mY6C]V1^kI1
+R3
+Ig>oQjQc8KFJMj`lOndCEz3
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE.sv
+!i122 5
+L0 4 43
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE.sv|
+!i113 1
+R12
+R13
+R14
+n@p@e
+vPE_Array
+R1
+Z16 !s110 1781214959
+!i10b 1
+!s100 ImcI]M1i<Q2T;?b`8NRaC2
+R3
+IZeTI=Oi@<H^3BjT`QeQJV3
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv
+!i122 4
+L0 3 68
+R8
+r1
+!s85 0
+31
+Z17 !s108 1781214959.000000
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/PE_Array.sv|
+!i113 1
+R12
+R13
+R14
+n@p@e_@array
+vpooling_layer
+R1
+R16
+!i10b 1
+!s100 SFY`^T0@@ged>1<eNNjf92
+R3
+I2^i<[T0P[[P0fd=][BG9i3
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling.sv
+!i122 3
+L0 1 56
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling.sv|
+!i113 1
+R12
+R13
+R14
+vpooling_top
+R1
+R16
+!i10b 1
+!s100 ^R=JGh=RhXa5K_:YmlMmW3
+R3
+IjFdf^8mzlSjV<hcUfEg051
+R4
+S1
+R0
+w1780809010
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv
+!i122 2
+L0 3 176
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/pooling_top.sv|
+!i113 1
+R12
+R13
+R14
+vSystolic_Top
+R1
+R16
+!i10b 1
+!s100 OGSFdR:7]4>om425oj1j`3
+R3
+I0<j0jm^Ok8`@MbBAOHCiO3
+R4
+S1
+R0
+w1780812797
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Systolic_Top.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Systolic_Top.sv
+!i122 1
+L0 3 193
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Systolic_Top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/Systolic_Top.sv|
+!i113 1
+R12
+R13
+R14
+n@systolic_@top
+vweight_addr_gen
+R1
+R2
+!i10b 1
+!s100 P>U9g[lEV[U3WGWhDbn>e0
+R3
+I2T<Z11dGJf`OF>>U6HX;01
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 7
+L0 41 60
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vweight_mem
+R1
+R16
+!i10b 1
+!s100 af;2cAiEQd8`YL8AcBi[V1
+R3
+IzO^ODa^i]gVkJ_0_kmlF]0
+R4
+S1
+R0
+R5
+8C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/weight_mem.sv
+FC:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/weight_mem.sv
+!i122 0
+L0 3 42
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/weight_mem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project|C:/Users/dnare/Desktop/289Q_Projects_Consolidated/Output_Stationary_Full_project/Full_project/weight_mem.sv|
+!i113 1
+R12
+R13
+R14
